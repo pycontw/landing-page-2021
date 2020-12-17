@@ -1,5 +1,7 @@
 import React, { useEffect }  from 'react';
 
+import { Link } from "react-router-dom";
+
 import '../style/index.css';
 import '../style/proposal.css'
 import pyconImg from '../assets/Pycon_2021-01.png';
@@ -41,9 +43,10 @@ const Home = () => {
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScYhMAg4_T4Shi-W0vt9EkGyrpTMHemvcY55ZKc2-MfVqDzGg/viewform" className="become_volunteer">
             成為志工
           </a>
-          <a href="/proposal" target="_blank" className="call_for_paper">
+          <a href="#/proposal" target="_blank" className="call_for_paper">
             徵求稿件
           </a>
+
         </div>
 			</div>
 			<div className={`${className}-about`}>
