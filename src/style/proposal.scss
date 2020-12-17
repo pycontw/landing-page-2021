@@ -1,0 +1,37 @@
+$background-pink: #f4af9e;
+$color-deep-red: #502526;
+$font-deep-black: #333333;
+$font-pink: #FBD9CA;
+$font-white: #FFFFFF;
+$button-red: #E23728;
+$classname: 'pycon';
+body{
+  margin: 0;
+}
+.#{$classname}-proposal{
+  padding: 0 20px;
+  h2{
+    text-align: center;
+    margin: 40px 0;
+  }
+  h3{
+    margin: 40px 0;
+  }
+  p{
+    text-align: justify;
+    line-height: 1.8;
+  }
+  ul{
+    margin: 40px 0;
+    line-height: 1.8;
+  }
+  a{
+    text-decoration: none;
+  }
+  @media screen and (min-width: 980px){
+    width: 636px;
+    margin: 0 auto;
+  }
+}
+
+

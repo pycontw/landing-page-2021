@@ -1,0 +1,175 @@
+$background-pink: #FFFFFF;
+$color-deep-red: #502526;
+$font-deep-black: #333333;
+$font-pink: #FFFFFF;
+$font-white: #FFFFFF;
+$button-red: #E23728;
+
+$classname: 'pycon';
+body{
+  margin: 0;
+  background-color: $font-pink;
+}
+.#{$classname}-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $font-pink;
+  border-bottom: 2px solid $color-deep-red;
+  padding: 10px 0 10px 10px;
+  .header-left{
+    button{
+      display: inline-block;
+      color: $color-deep-red;
+      border: 0;
+      background:$background-pink;
+      width: 36px;
+      height: 36px;
+      font-size: 20px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      border-radius: 8px;
+    }
+  }
+  .header-right{
+    display: none;
+  }
+  @media screen and (min-width: 980px){
+    margin: 10px 40px 0;
+    .header-right{
+      display: block;
+      div{
+        display: inline-block;
+        padding: 0 16px;
+        img{
+          width: 24px;
+        }
+      }
+
+    }
+  }
+
+}
+.#{$classname}-vulunteer{
+  padding: 0 0 80px;
+  background-color: $font-pink;
+  h2{
+    font-size: 1.5rem;
+    color: $color-deep-red;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 12px;
+  }
+  img{
+    width: 100%;
+  }
+  ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 50px;
+    li{
+      list-style: none;
+      padding: 0 13px;
+      a{
+        text-decoration: none;
+        color: $color-deep-red;
+        font-weight: normal;
+        font-size: 1.125rem;
+      }
+    }
+  }
+    button{
+      position: absolute;
+      right: 0;
+    }
+  @media screen and (min-width: 980px){
+    margin: 0 40px 0px;
+    padding: 40px 20px 80px;
+    h2{
+      margin-left: 0;
+    }
+  }
+}
+  .become_volunteer{
+    color: $font-pink;
+    background-color: $button-red;
+    border: 2px solid $button-red;
+    text-decoration: none;
+    transition: background 150ms linear, border 150ms linear;
+    font-size: 1.6rem;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 40px;
+    height: 70px;
+    @media screen and (min-width: 980px){
+      height: 113px;
+      width: 510px;
+      border-radius: 57px;
+      margin: auto;
+
+    }
+  }
+  .become_volunteer:hover{
+    background-color: transparent;
+    color: $button-red;
+  }
+
+.#{$classname}-about{
+  background-color: $background-pink;
+  padding: 80px 40px 80px 40px;
+
+  h3{
+    color: $color-deep-red;
+    font-size: 1.875rem;
+    text-align: center;
+    margin: 24px 0;
+  }
+  p{
+    color: $font-deep-black;
+    text-align: justify;
+    line-height: 2;
+
+    @media screen and (min-width: 980px){
+      text-align: left;
+      max-width: 720px;
+      margin: auto;
+      margin-bottom: 64px;
+    }
+  }
+}
+footer{
+  background: $color-deep-red;
+  padding: 80px 0 10px;
+  .#{$classname}-footer-top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    >ul{
+      padding: 0;
+      li{
+        list-style: none;
+        line-height: 48px;
+        text-align: center;
+        a{
+          color: $font-pink;
+          text-decoration: none;
+        }
+        a:hover{
+          color: $button-red;
+        }
+      }
+
+    }
+  }
+  .#{$classname}-footer-bottom{
+    border-top: 1px solid $font-pink;
+    color: $font-pink;
+    padding: 8px 0 20px;
+    text-align: center;
+  }
+}
+
