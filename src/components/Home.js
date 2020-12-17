@@ -1,12 +1,9 @@
-import React, { useEffect }  from 'react';
-
-import { Link } from "react-router-dom";
+import React from 'react';
 
 import '../style/index.css';
 import '../style/proposal.css'
 import pyconImg from '../assets/Pycon_2021-01.png';
 import pylogo from '../assets/2020-py-logo.svg';
-import facebook from '../assets/facebook.svg'
 
 const Home = () => {
 	const className = 'pycon'
@@ -18,18 +15,18 @@ const Home = () => {
 					<button>EN</button>
 				</div>
 				<div className="header-right">
-					<div>
-            <img src={facebook} alt=""/>
+          <div>
+            <a href="https://pycontw.blogspot.com/" class="fa fa-book" target="_blank" rel="noopener"></a>
 					</div>
 					<div>
-						<img src={facebook} alt=""/>
+            <a href="https://www.facebook.com/pycontw" aria-label="Facebook" class="fa fa-facebook-official" target="_blank" rel="noopener"></a>
 					</div>
 					<div>
-						<img src={facebook} alt=""/>
+            <a href="https://twitter.com/pycontw" aria-label="Twitter" class="fa fa-twitter" target="_blank" rel="noopener"></a>
 					</div>
 					<div>
-						<img src={facebook} alt=""/>
-					</div>
+            <a href="mailto:organizers@pycon.tw" aria-label="Email" class="fa fa-envelope"></a>
+          </div>
 				</div>
 			</div>
 			<div className={`${className}-vulunteer`}>
@@ -63,14 +60,14 @@ const Home = () => {
 				<div className={`${className}-footer-top`}>
 					<img src={pylogo}/>
 					<ul>
-						<li><a href="/">行為準則</a></li>
-						<li><a href="/">工作人員</a></li>
-						<li><a href="/">社群</a></li>
-						<li><a href="/">個人資料保護聲明</a></li>
+						<li><a href="#/code-of-conduct">行為準則</a></li>
+						<li><a href="https://tw.pycon.org/2020/zh-hant/about/staff/">工作人員</a></li>
+						<li><a href="https://tw.pycon.org/2020/zh-hant/about/community/">社群</a></li>
+						<li><a href="https://tw.pycon.org/2020/zh-hant/about/privacy_policy/">個人資料保護聲明</a></li>
 					</ul>
 				</div>
 				<div className={`${className}-footer-bottom`}>
-					2020 PyCon Taiwan
+					2021 PyCon Taiwan
 				</div>
 			</footer>
 		</div>
