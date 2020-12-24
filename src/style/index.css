@@ -19,11 +19,14 @@ body {
   background: #d8cccc;
   width: 40px;
   height: 40px;
+  font-weight: 500;
   font-size: 20px;
   margin-right: 5px;
   margin-bottom: 5px;
   border-radius: 8px;
   cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .pycon-header .header-right{
