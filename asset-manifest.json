@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page-2021/static/css/main.8e1a1a34.chunk.css",
+    "main.css": "/landing-page-2021/static/css/main.02d80223.chunk.css",
     "main.js": "/landing-page-2021/static/js/main.538b6ea9.chunk.js",
     "main.js.map": "/landing-page-2021/static/js/main.538b6ea9.chunk.js.map",
     "runtime-main.js": "/landing-page-2021/static/js/runtime-main.78d5e107.js",
@@ -8,7 +8,7 @@
     "static/js/2.a2df65d5.chunk.js": "/landing-page-2021/static/js/2.a2df65d5.chunk.js",
     "static/js/2.a2df65d5.chunk.js.map": "/landing-page-2021/static/js/2.a2df65d5.chunk.js.map",
     "index.html": "/landing-page-2021/index.html",
-    "static/css/main.8e1a1a34.chunk.css.map": "/landing-page-2021/static/css/main.8e1a1a34.chunk.css.map",
+    "static/css/main.02d80223.chunk.css.map": "/landing-page-2021/static/css/main.02d80223.chunk.css.map",
     "static/js/2.a2df65d5.chunk.js.LICENSE.txt": "/landing-page-2021/static/js/2.a2df65d5.chunk.js.LICENSE.txt",
     "static/media/2020-py-logo.d6399544.svg": "/landing-page-2021/static/media/2020-py-logo.d6399544.svg",
     "static/media/Pycon_2021-01.c6d48ea0.png": "/landing-page-2021/static/media/Pycon_2021-01.c6d48ea0.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.78d5e107.js",
     "static/js/2.a2df65d5.chunk.js",
-    "static/css/main.8e1a1a34.chunk.css",
+    "static/css/main.02d80223.chunk.css",
     "static/js/main.538b6ea9.chunk.js"
   ]
 }
