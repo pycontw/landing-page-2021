@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+
+networks:
+    default:
+        external:
+            name: pycontw-net
+
+
