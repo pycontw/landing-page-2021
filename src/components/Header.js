@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import '../style/index.css';
 
@@ -8,8 +9,9 @@ const Header = ({ setLocale }) => {
   return (
     <div className={`${className}-header`}>
 				<div className="header-left">
-					<button onClick={()=> setLocale('zh-TW')}>ZH</button>
-					<button onClick={()=> setLocale('en')}>EN</button>
+					<button onClick={() => setLocale('zh-TW')}>ZH</button>
+          <button onClick={() => setLocale('en')}>EN</button>
+          <Link to="/">PyCon TW21</Link>
 				</div>
 				<div className="header-right">
           <div>

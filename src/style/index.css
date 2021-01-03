@@ -29,6 +29,18 @@ body {
   box-sizing: border-box;
 }
 
+.pycon-header .header-left a{
+  color: #502526;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .pycon-header .header-right{
   display: none
 }
@@ -211,4 +223,3 @@ footer .pycon-footer-bottom{
 .index-action a {
   margin-top: 80px;
 }
-
