@@ -23,7 +23,7 @@ const Home = ({ setLocale }) => {
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScYhMAg4_T4Shi-W0vt9EkGyrpTMHemvcY55ZKc2-MfVqDzGg/viewform" className="become_volunteer">
             <FormattedMessage id="app.volunteer" />
           </a>
-          <a href="#/proposal" target="_blank" className="call_for_paper">
+          <a href="#/proposal" className="call_for_paper" target="_blank" rel="noopener noreferrer">
             <FormattedMessage id="app.cfp" />
           </a>
         </div>
