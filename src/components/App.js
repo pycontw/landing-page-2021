@@ -17,9 +17,9 @@ class App extends Component {
     return (
       <HashRouter basename='/'>
         <div>
-          <Route exact path="/"><Home setLocale={this.onSetLocale}/></Route>
-          <Route path="/proposal" component={Proposal} />
-          <Route path="/code-of-conduct" component={Conduct} />
+          <Route exact path="/"><Home setLocale={this.onSetLocale} /></Route>
+          <Route path="/proposal"><Proposal setLocale={this.onSetLocale} /></Route>
+          <Route path="/code-of-conduct"><Conduct setLocale={this.onSetLocale} /></Route>
         </div>
       </HashRouter>
      );
