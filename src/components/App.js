@@ -4,9 +4,10 @@ import { HashRouter, Route } from "react-router-dom";
 import Home from './Home';
 import Proposal from './Proposal';
 import Conduct from './Conduct';
+import ScrollToTop from './ScrollToTop';
 
 class App extends Component {
-  state = { locale: "" }
+  state = { locale: "" };
 
   onSetLocale = locale => {
     this.setState({ locale: locale });
@@ -16,13 +17,15 @@ class App extends Component {
   render() {
     return (
       <HashRouter basename='/'>
-        <div>
-          <Route exact path="/"><Home setLocale={this.onSetLocale} /></Route>
-          <Route path="/proposal"><Proposal setLocale={this.onSetLocale} /></Route>
-          <Route path="/code-of-conduct"><Conduct setLocale={this.onSetLocale} /></Route>
-        </div>
+        <ScrollToTop>
+          <div>
+            <Route exact path="/"><Home setLocale={this.onSetLocale} /></Route>
+            <Route path="/proposal"><Proposal setLocale={this.onSetLocale} /></Route>
+            <Route path="/code-of-conduct"><Conduct setLocale={this.onSetLocale} /></Route>
+          </div>
+        </ScrollToTop>
       </HashRouter>
-     );
+    );
   }
 }
 
