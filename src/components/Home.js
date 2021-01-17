@@ -6,6 +6,7 @@ import '../style/proposal.css'
 import pyconImg from '../assets/Pycon_2021-01.png';
 import Header from './Header';
 import Footer from './Footer';
+import Menu from './Menu';
 
 const Home = ({ setLocale }) => {
   const className = 'pycon';
@@ -16,9 +17,7 @@ const Home = ({ setLocale }) => {
 			<div className={`${className}-vulunteer`}>
 				<h2>Welcome to PyCon TW21</h2>
 				<img src={pyconImg} alt={pyconImg} />
-				<ul>
-					<li><a href="/"><FormattedMessage id="app.about" /></a></li>
-        </ul>
+        <Menu />
         <div className="index-action">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScYhMAg4_T4Shi-W0vt9EkGyrpTMHemvcY55ZKc2-MfVqDzGg/viewform" className="become_volunteer">
             <FormattedMessage id="app.volunteer" />

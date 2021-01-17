@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import '../style/proposal.css'
 import Header from './Header';
 import Footer from './Footer';
+import Menu from './Menu';
 
 const Conduct = ({ setLocale }) => {
   const className = 'pycon';
@@ -11,6 +12,7 @@ const Conduct = ({ setLocale }) => {
   return(
     <div>
       <Header setLocale={setLocale} />
+      <Menu />
       <div className={`${className}-proposal`}>
         <p><FormattedMessage id="app.coc.title" /></p>
         <h2><FormattedMessage id="app.coc" /></h2>
