@@ -46,8 +46,8 @@ const en = {
   'app.coc.footer2': 'This Code of Conduct is approved by the organizers of PyCon Taiwan.',
   'app.cfp.title': 'The Call for Proposals is now open. PyCon 2021 Taiwan is accepting talks and tutorials!',
   'app.cfp.date': 'Important Dates',
-  'app.cfp.date.1': 'Talks & Tutorial CfP begins: Feb. 21',
-  'app.cfp.date.2': 'Talks & Tutorial CfP ends: Apr 18, 23:59:59 {AoE}',
+  'app.cfp.date.1': 'Talks & Tutorial CfP begins: Mar 1',
+  'app.cfp.date.2': 'Talks & Tutorial CfP ends: Apr 26, 23:59:59 {AoE}',
   'app.cfp.date.3': 'Announcement of acceptance: In the middle of June (tentative)',
   'app.cfp.date.content': 'All talks will be recorded, edited then uploaded to {pyvideo} by the PyCon Taiwan committee, unless the speaker requests otherwise. See more info about the {recording}. \
                            All speakers are required to buy their own conference tickets ({contributes})',

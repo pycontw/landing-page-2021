@@ -30,7 +30,7 @@ const Proposal = ({ setLocale }) => {
           <FormattedMessage
             id="app.cfp.date.content"
             values={{ pyvideo: <a href="https://pyvideo.org">pyvideo.org</a>,
-                      recording: <a href="https://tw.pycon.org/2020/zh-hant/speaking/recording/"><FormattedMessage id="recording.release" /></a>,
+                      recording: <a href="https://tw.pycon.org/2021/zh-hant/speaking/recording/"><FormattedMessage id="recording.release" /></a>,
                       contributes: <a href="https://pyfound.blogspot.com/2017/10/psfs-october-board-meeting.html">Everyone Contributes Policy</a>
                     }}
           />
@@ -39,8 +39,8 @@ const Proposal = ({ setLocale }) => {
         <p>
           <FormattedMessage
             id="app.cfp.submit.content"
-            values={{ pycon: <a href="https://tw.pycon.org/2020/en-us/">tw.pycon.org</a>,
-                      signup: <a href="https://tw.pycon.org/2020/zh-hant/accounts/signup/"><FormattedMessage id="signup" /></a>,
+            values={{ pycon: <a href="https://tw.pycon.org/2021/en-us/">tw.pycon.org</a>,
+                      signup: <a href="https://tw.pycon.org/2021/zh-hant/accounts/signup/"><FormattedMessage id="signup" /></a>,
                     }}
           />
 				</p>
@@ -78,7 +78,7 @@ const Proposal = ({ setLocale }) => {
         <p>
           <FormattedMessage
             id="app.cfp.talk.8"
-            values={{ talk: <a href="https://tw.pycon.org/2020/zh-hant/speaking/talk/"><FormattedMessage id="talk" /></a> }}
+            values={{ talk: <a href="https://tw.pycon.org/2021/zh-hant/speaking/talk/"><FormattedMessage id="talk" /></a> }}
           />
         </p>
         <p><FormattedMessage id="app.cfp.talk.9" /></p>
@@ -86,8 +86,8 @@ const Proposal = ({ setLocale }) => {
         <p>
           <FormattedMessage
             id="app.cfp.tutorials.content"
-            values={{ talk: <a href="https://tw.pycon.org/2020/zh-hant/speaking/talk/"><FormattedMessage id="talk" /></a>,
-                      tutorials: <a href="https://tw.pycon.org/2020/zh-hant/speaking/tutorial/"><FormattedMessage id="tutorials" /></a>}}
+            values={{ talk: <a href="https://tw.pycon.org/2021/zh-hant/speaking/talk/"><FormattedMessage id="talk" /></a>,
+                      tutorials: <a href="https://tw.pycon.org/2021/zh-hant/speaking/tutorial/"><FormattedMessage id="tutorials" /></a>}}
           />
 				</p>
 				<h2><FormattedMessage id="app.cfp.review" /></h2>

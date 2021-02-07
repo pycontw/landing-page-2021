@@ -10,7 +10,7 @@ const Menu = () => {
     <div className={`${className}-menu`}>
       <ul>
         <li>
-          <a href="https://tw.pycon.org/2020/zh-hant/about/pycontw/">
+          <a href="https://tw.pycon.org/2021/zh-hant/about/pycontw/">
             <FormattedMessage id="app.about" />
           </a>
         </li>

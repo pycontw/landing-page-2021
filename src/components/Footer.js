@@ -18,12 +18,12 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://tw.pycon.org/2020/zh-hant/about/community/">
+            <a href="https://tw.pycon.org/2021/zh-hant/about/community/">
               <FormattedMessage id="app.community" />
             </a>
           </li>
           <li>
-            <a href="https://tw.pycon.org/2020/zh-hant/about/privacy_policy/">
+            <a href="https://tw.pycon.org/2021/zh-hant/about/privacy_policy/">
               <FormattedMessage id="app.policy" />
             </a>
           </li>
