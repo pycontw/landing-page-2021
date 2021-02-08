@@ -21,7 +21,7 @@ const Proposal = ({ setLocale }) => {
           <li>
             <FormattedMessage
               id="app.cfp.date.2"
-              values={{ AoE: <a href="https://www.timeanddate.com/worldclock/converter.html?iso=20210419T115900&p1=tz_aoe&p2=241&p3=1440">(AoE)</a> }}
+              values={{ AoE: <a href="https://www.timeanddate.com/worldclock/converter.html?iso=20210427T115900&p1=tz_aoe&p2=241&p3=1440">(AoE)</a> }}
             />
           </li>
 					<li><FormattedMessage id="app.cfp.date.3" /></li>
